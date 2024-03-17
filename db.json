@@ -1,0 +1,5 @@
+{
+    "posts": [
+      { "id": "1", "title": "lista de compras", "author": "usuario", "content": "Lista"}
+    ]
+  }
