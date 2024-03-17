@@ -1,5 +1,16 @@
 {
-    "posts": [
-      { "id": "1", "title": "lista de compras", "author": "usuario", "content": "Lista"}
-    ]
-  }
+  "posts": [
+    {
+      "id": "1",
+      "title": "Receita 1",
+      "author": "Grrap",
+      "content": "Esta é a receita Nº 1"
+    },
+    {
+      "id": "2",
+      "title": "Receita 2",
+      "author": "Grrap",
+      "content": "Esta é a receita Nº 2"
+    }
+  ]
+}
