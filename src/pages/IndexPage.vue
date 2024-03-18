@@ -8,7 +8,8 @@
       </template>
 
       <template v-slot:body-cell-actions="props">
-        <q-td :props="props">
+        <q-td :props="props" class="q-gutter-sm">
+          <q-btn icon="edit" color="info" dense size="sm" @click="handleEditPost(props.row.id)" />
           <q-btn
             icon="delete"
             color="negative"
@@ -26,6 +27,7 @@
 import { onMounted, ref } from 'vue';
 import postsService from 'src/services/posts';
 import { useQuasar } from 'quasar';
+import { useRouter } from 'vue-router';
 
 export default {
   name: 'IndexPage',
@@ -40,6 +42,7 @@ export default {
     ];
 
     const $q = useQuasar();
+    const router = useRouter();
 
     onMounted(() => {
       getPosts();
@@ -64,7 +67,8 @@ export default {
           persistent: true
         }).onOk(async () => {
           await deleteById(id);
-          $q.notify({ message: 'Removido com sucesso', icon: 'check', color: 'positive' });
+          $q.notify({ message: 'Item removido com sucesso', icon: 'check', color: 'positive' });
+          // window.location.reload();
         });
         await getPosts();
       } catch (error) {
@@ -72,10 +76,15 @@ export default {
       }
     };
 
+    const handleEditPost = (id) => {
+      router.push({ name: 'formPost', params: { id } });
+    };
+
     return {
       posts,
       columns,
-      handleDeletePost
+      handleDeletePost,
+      handleEditPost
     };
   }
 };
