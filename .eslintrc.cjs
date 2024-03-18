@@ -73,7 +73,7 @@ module.exports = {
         bracketSpacing: true,
         printWidth: 100
       }
-    ],
-    'no-console': 'warn'
+    ]
+    // 'no-console': 'warn'
   }
 };
