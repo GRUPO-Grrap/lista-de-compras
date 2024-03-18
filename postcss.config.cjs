@@ -24,4 +24,4 @@ module.exports = {
     // 3. uncomment the following line:
     // require('postcss-rtlcss')
   ]
-}
+};
