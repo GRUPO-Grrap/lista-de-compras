@@ -16,7 +16,7 @@ module.exports = {
   // Rules order is important, please avoid shuffling them
   extends: [
     // Base ESLint recommended rules
-    // 'eslint:recommended',
+    'eslint:recommended',
 
     // Uncomment any of the lines below to choose desired strictness,
     // but leave only one uncommented!
@@ -74,6 +74,7 @@ module.exports = {
         printWidth: 100
       }
     ]
-    // 'no-console': 'warn'
+    // 'no-console': 'warn',
+    // 'no-alert': 'warn'
   }
 };
