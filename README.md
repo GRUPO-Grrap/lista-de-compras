@@ -50,7 +50,7 @@ npm run dev
 
 ## 🧪 Scripts e Casos de Teste:
 
-- [Clique aqui!](https://github.com/GRUPO-Grrap/tests-lista-de-compras/tree/main/tests/tests-cases)
+- [Clique aqui!](https://github.com/GRUPO-Grrap/tests-lista-de-compras)
 
 ## Licença
 
