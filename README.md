@@ -48,6 +48,10 @@ npm i -g @quasar/cli
 npm run dev
 ```
 
+## 🧪 Scripts e Casos de Teste:
+
+- [Clique aqui!](https://github.com/GRUPO-Grrap/tests-lista-de-compras/tree/main/tests/tests-cases)
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
