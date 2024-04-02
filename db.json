@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "name": "Item 1",
-      "quantity": "10",
-      "observations": "Este é o item Nº 1"
-    },
-    {
       "id": "2",
       "name": "Item 2",
       "quantity": "20",
