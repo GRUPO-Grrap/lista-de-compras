@@ -2,7 +2,7 @@
   "name": "lista-de-compras",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Lista de compras",
+  "productName": "Lista de Compras",
   "author": "Assis <assisneto013@gmail.com>",
   "type": "module",
   "private": true,
@@ -10,7 +10,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\" \"src/**/*.scss\" \"index.html\"",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\" \"src/**/*.scss\" \"index.html\" \"README.md\"",
     "lint": "eslint \"src/**/*.js\" --fix"
   },
   "dependencies": {

@@ -4,7 +4,7 @@
       <template v-slot:top>
         <span class="text-h5">Lista de Compras</span>
         <q-space />
-        <q-btn color="primary" label="Adicionar" :to="{ name: 'formPost' }" />
+        <q-btn color="blue" label="Adicionar" :to="{ name: 'formPost' }" />
       </template>
 
       <template v-slot:body-cell-actions="props">

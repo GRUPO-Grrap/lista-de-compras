@@ -24,7 +24,7 @@
       </div>
 
       <div class="col-12 q-gutter-sm">
-        <q-btn label="Salvar" color="primary" class="float-right" icon="save" type="submit" />
+        <q-btn label="Salvar" color="blue" class="float-right" icon="save" type="submit" />
         <q-btn
           label="Cancelar"
           color="red"

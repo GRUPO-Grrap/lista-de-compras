@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Grrap </q-toolbar-title>
+        <q-toolbar-title> Menu </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -12,7 +12,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> Menus </q-item-label>
+        <q-item-label header> Stakeholders </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
       </q-list>
@@ -34,10 +34,34 @@ defineOptions({
 
 const linksList = [
   {
-    title: 'Home',
-    caption: '',
-    icon: 'home',
-    route: { name: 'home' }
+    title: 'Gerente de Projeto',
+    caption: 'github.com/tharlisdavid',
+    icon: 'school',
+    link: 'https://github.com/tharlisdavid'
+  },
+  {
+    title: 'OPS',
+    caption: 'github.com/gabrielgt5',
+    icon: 'school',
+    link: 'https://github.com/gabrielgt5'
+  },
+  {
+    title: 'Dev Sênior',
+    caption: 'github.com/eonarga',
+    icon: 'school',
+    link: 'https://github.com/eonarga'
+  },
+  {
+    title: 'Dev Pleno',
+    caption: 'github.com/lucascampolimm',
+    icon: 'school',
+    link: 'https://github.com/lucascampolimm'
+  },
+  {
+    title: 'Dev Júnior',
+    caption: 'github.com/raphaelkauan',
+    icon: 'school',
+    link: 'https://github.com/raphaelkauan'
   }
 ];
 
