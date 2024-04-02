@@ -1,43 +1,57 @@
-# Lista de compras (lista-de-compras)
+# Lista de compras 🛍️
 
-A Quasar Project
+Este é um projeto que permite aos usuários cadastrarem suas listas de compras.
 
-## Install the dependencies
+## Instalação
+
+Antes de prosseguir, certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em seu sistema.
+
+## 1. Clone este repositório para o seu computador:
 
 ```bash
-yarn
-# or
+git clone https://github.com/GRUPO-Grrap/Lista-de-Compras.git
+```
+
+## 2. Navegue até o diretório do projeto:
+
+```bash
+cd Lista-de-Compras
+```
+
+## 3. Instalação de Dependências:
+
+```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## 4. Instalação do json-server:
 
 ```bash
-quasar dev
+npm i -g json-server
 ```
 
-### Lint the files
+## 5. Inicialização da API:
 
 ```bash
-yarn lint
-# or
-npm run lint
+json-server --watch db.json
 ```
 
-### Format the files
+## 6. Instalando CLI do Quasar
 
 ```bash
-yarn format
-# or
-npm run format
+npm i -g @quasar/cli
 ```
 
-### Build the app for production
+## 7. Execução do Projeto:
 
 ```bash
-quasar build
+npm run dev
 ```
 
-### Customize the configuration
+## 🧪 Scripts e Casos de Teste:
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+- [Clique aqui!](https://github.com/GRUPO-Grrap/tests-lista-de-compras)
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).

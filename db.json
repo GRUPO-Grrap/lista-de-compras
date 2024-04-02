@@ -5,12 +5,6 @@
       "name": "Item 2",
       "quantity": "20",
       "observations": "Este é o item Nº 2"
-    },
-    {
-      "id": "3",
-      "name": "Item 3",
-      "quantity": "30",
-      "observations": "Este é o item Nº 3"
     }
   ]
 }
