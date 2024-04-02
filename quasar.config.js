@@ -41,7 +41,7 @@ export default configure((ctx) => {
 
       vueRouterMode: 'history', // available values: 'hash', 'history'
       env: {
-        API_URL: ctx.dev ? 'http://localhost:3000/' : 'http://localhost:3000/'
+        API_URL: ctx.dev ? 'https://api.grrap.com.br/' : 'https://api.grrap.com.br/'
       },
       // vueRouterBase,
       // vueDevtools,
